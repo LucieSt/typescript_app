@@ -1,4 +1,4 @@
-import './form.css';
+import './form.scss';
 import { useState } from 'react';
 
 const TYPES: string[] = ['general', 'dad', 'knock-knock', 'programming'];

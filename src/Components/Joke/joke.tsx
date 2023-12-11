@@ -1,4 +1,4 @@
-import './joke.css';
+import './joke.scss';
 
 interface JokeProps {
     setup: string;
@@ -6,7 +6,6 @@ interface JokeProps {
 }
 
 const Joke: React.FC<JokeProps> = ({ setup, punchline }) => {
-    console.log('hello');
     return (
         <div className="joke">
             <div className="joke__body">
